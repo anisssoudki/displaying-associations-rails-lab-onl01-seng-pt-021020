@@ -1,4 +1,2 @@
-  
-<h1>Songs#show</h1>
-
-Title: <%= @song.title %>
+<h1><%= @song.title %></h1>
+by <%= link_to @song.artist_name, @song.artist %>
